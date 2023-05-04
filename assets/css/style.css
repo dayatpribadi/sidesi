@@ -1,0 +1,101 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.circle {
+    position: absolute;
+    content: "";
+    width: 40rem;
+    height: 57rem;
+    top: -205px;
+    right: 0;
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+    border-radius: 100% 0 0 100% ;
+    background-position: top right;
+    z-index: -2;
+}
+
+.bg-images {
+    background-image: url(/assets/img/background/danau.jpeg);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    opacity: 100%;
+    z-index: 999;
+}
+
+.btn-login-app {
+    background-color: #f80759;
+    color: #FFF;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 1px solid #f8adc6;
+}
+
+.btn-login-app:hover {
+    color: #f80759;
+    background-color: #FFF;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 1px solid #f8adc6;
+    transition: .5s ease-in;
+}
+
+.btn-login {
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 1px solid #f8adc6;
+
+}
+
+.btn-login:hover {
+    background: #f80759;
+    color: whitesmoke;
+    transition: .5s ease-in;
+}
+
+
+/* .main-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+} */
+
+footer.footer-content {
+    padding-top: 15px;
+    /* bottom: 0;
+    border-top: 1px solid #c5c3c3;
+    margin-top: 15rem; */
+}
+
+
+
+@media (max-width: 768px) {
+    .main-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    .circle {
+        position: absolute;
+        content: "";
+        width: 45rem;
+        height: 45rem;
+        top: -175px;
+        right: 0;
+        background: #bc4e9c;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+        border-radius: 100% ;
+        background-position: top right;
+        z-index: -2;
+    }
+}
+
+
