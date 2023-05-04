@@ -233,7 +233,7 @@ span.title-sidesi {
 }
 
 .bg-images {
-    background-image: url(/assets/img/background/danau.jpeg);
+    background-image: url('/assets/img/background/danau.jpeg');
     position: fixed;
     height: 100%;
     width: 100%;
