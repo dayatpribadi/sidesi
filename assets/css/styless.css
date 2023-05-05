@@ -13,7 +13,7 @@ body {
 }
 
 main>.container {
-    padding: 200px 15px 0;
+    padding: 45vh 15px 0;
 }
 
 .bd-placeholder-img {
@@ -57,8 +57,8 @@ span.cpyrgth {
     .circle {
       position: absolute;
       content: "";
-      width: 45rem;
-      height: 66em;
+      width: 50vw;
+      height: 100vh;
       top: -205px;
       right: 0;
       background: #6541c1;
@@ -153,6 +153,10 @@ strong::after {
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.wrapper-text {
+  margin-top: -100px;
 }
 
 .taglines p {
