@@ -13,7 +13,7 @@ body {
 }
 
 main>.container {
-    padding: 20vh 20vh 0;
+    padding: 20vh 15px 0;
 }
 
 .bd-placeholder-img {
@@ -47,11 +47,16 @@ span.cpyrgth {
 
 @media (min-width: 768px) {
     main>.container {
-      padding: 35vh 15px 0;
+      padding: 35vh 20vh 0;
     }
 
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
+    }
+
+    .taglines p {
+      text-align: justify;
+      font-size: 13px;
     }
 
     span.cpyrgth {
@@ -161,6 +166,11 @@ strong::after {
 
 .wrapper-text {
   margin-top: -20px;
+}
+
+.taglines h1 {
+  text-align: justify;
+  font-size: 18px;
 }
 
 .taglines p {
