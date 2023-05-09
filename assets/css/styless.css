@@ -12,6 +12,10 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
+.logo-right img {
+  width: 30px;
+}
+
 main>.container {
     padding: 20vh 15px 0;
 }
@@ -61,6 +65,10 @@ span.cpyrgth {
 
     span.cpyrgth {
         font-size: 13px;
+    }
+
+    .logo-right img {
+      width: 120px;
     }
 
     .circle {
