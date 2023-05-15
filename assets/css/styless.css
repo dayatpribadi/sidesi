@@ -327,5 +327,21 @@ h5.kata-login {
     background-position: top right;
     z-index: -2;
   }
+
+  .wrapper-text .taglines p {
+    text-align: justify;
+    font-size: 22px;
+  }
+
+  .wrapper-text .taglines h1 {
+    text-align: justify;
+    font-size: 32px;
+  }
+
+  .wrapper-text .taglines .sidesi {
+    text-align: justify;
+    font-size: 42px;
+  }
+
 }
 
