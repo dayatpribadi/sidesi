@@ -310,15 +310,15 @@ h5.kata-login {
     position: absolute;
     content: "";
     width: 50vw;
-    height: 78rem;
-    top: -205px;
+    height: 100vh;
+    top: 0;
     right: 0;
     background: #6541c1;
     background: -webkit-gradient(left top, right top, color-stop(0%, #6541c1), color-stop(98%, #d43396), color-stop(100%, #d43396));
     background: -webkit-gradient(linear, left top, right top, from(#6541c1), color-stop(98%, #d43396), to(#d43396));
     background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6541c1', endColorstr='#d43396', GradientType=1);
-    border-radius: 100% 0 0 100% ;
+    border-radius: 60% 0 0 60% ;
     background-position: top right;
     z-index: -2;
   }
