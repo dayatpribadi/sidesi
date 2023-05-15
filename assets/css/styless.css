@@ -310,6 +310,10 @@ h5.kata-login {
   .btn-profil {
     margin-top: 50px;
   }
+  
+  .kata-login {
+    color: #FFF;
+  }
 
   .circle {
     position: absolute;
@@ -340,7 +344,7 @@ h5.kata-login {
 
   .wrapper-text .taglines .sidesi {
     text-align: justify;
-    font-size: 42px;
+    font-size: 36px;
   }
 
 }
