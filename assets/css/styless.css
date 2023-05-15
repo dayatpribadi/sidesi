@@ -132,6 +132,11 @@ width: 100px;
 padding-top: 30px;
 }
 
+.logo-right .logo-oi {
+  width: 50px;
+  margin-right: 20px;
+}
+
 
 .wrapper-text {
   margin-top: -20px;
