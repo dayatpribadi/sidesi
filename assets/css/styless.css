@@ -315,6 +315,14 @@ h5.kata-login {
     color: #FFF;
   }
 
+  .btn-login {
+    font-size: 20px;
+  }
+  
+  .btn-login-app {
+    font-size: 20px;
+  }
+
   .circle {
     position: absolute;
     content: "";
